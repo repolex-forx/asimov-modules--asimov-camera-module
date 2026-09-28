@@ -1,0 +1,20 @@
+[2026-09-28T07:34:27Z] === ENRICH ITERATION 1 START | repo=asimov-modules/asimov-camera-module sha=6518502f ===
+[2026-09-28T07:34:27Z] [iter=1] PHASE START: enrich repo=asimov-modules/asimov-camera-module sha=6518502f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6518502f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6518502fff8aadc64933017031025052d3093341.nq.gz
+[2026-09-28T07:34:53Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-28T07:34:54Z] [iter=1] AST store loaded triples=90163 load_secs=1 mem_mb=221 MB
+[2026-09-28T07:34:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=221 MB
+[2026-09-28T07:34:54Z] [iter=1] LSP targets found call_sites=772 imports=38 extends=0 implements=1 secs=0
+[2026-09-28T07:34:54Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=221 MB
+[2026-09-28T07:34:55Z] [iter=1] Position index built positions=6031 nodes_with_types=7307 secs=0 mem_mb=221 MB
+[2026-09-28T07:34:55Z] [iter=1] Step 3: Starting LSP resolution mem_mb=221 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T07:34:55Z] [iter=1] Resolving target type target_type=call_site count=772
+[2026-09-28T07:35:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=src/shared/drivers/ffmpeg.rs
+[2026-09-28T07:35:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=1 resolved=96 errors=13 current=src/reader/main.rs
+[2026-09-28T07:35:53Z] [iter=1] Target type resolved target_type=call_site resolved=314 errors=49 secs=58 mem_mb=221 MB
+[2026-09-28T07:35:53Z] [iter=1] Resolving target type target_type=import_statement count=38
+[2026-09-28T07:36:12Z] [iter=1] Target type resolved target_type=import_statement resolved=17 errors=0 secs=19 mem_mb=221 MB
+[2026-09-28T07:36:12Z] [iter=1] Resolving target type target_type=implements_clause count=1
+[2026-09-28T07:36:22Z] [iter=1] Target type resolved target_type=implements_clause resolved=1 errors=0 secs=11 mem_mb=221 MB
+[2026-09-28T07:36:46Z] [iter=1] Step 5: Writing final enrichment file triples=5767
+[2026-09-28T07:36:46Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/6518502fff8aadc64933017031025052d3093341.nq.gz size_kb=101
+[2026-09-28T07:36:46Z] [iter=1] PHASE END: enrich elapsed_s=139 elapsed_min=2.3 total_triples=5767

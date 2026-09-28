@@ -56,6 +56,161 @@
       ],
       "ast": [
         "aggregate/ast/6518502fff8aadc64933017031025052d3093341/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/6518502fff8aadc64933017031025052d3093341.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "asimov-module",
+          "ecosystem": "CARGO",
+          "version": "25",
+          "githubOrg": "asimov-platform",
+          "githubRepo": "asimov.rs",
+          "githubUrl": "https://github.com/asimov-platform/asimov.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "ctrlc",
+          "ecosystem": "CARGO",
+          "version": "3.5",
+          "githubOrg": "Detegr",
+          "githubRepo": "rust-ctrlc",
+          "githubUrl": "https://github.com/Detegr/rust-ctrlc.git",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "derive_more",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "JelteF",
+          "githubRepo": "derive_more",
+          "githubUrl": "https://github.com/JelteF/derive_more",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "dogma",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "dogmatists",
+          "githubRepo": "dogma.rs",
+          "githubUrl": "https://github.com/dogmatists/dogma.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "image",
+          "ecosystem": "CARGO",
+          "version": "0.25",
+          "githubOrg": "image-rs",
+          "githubRepo": "image",
+          "githubUrl": "https://github.com/image-rs/image",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "image_hasher",
+          "ecosystem": "CARGO",
+          "version": "3",
+          "githubOrg": "qarmin",
+          "githubRepo": "img_hash",
+          "githubUrl": "http://github.com/qarmin/img_hash",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "know",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "know-ontology",
+          "githubRepo": "know.rs",
+          "githubUrl": "https://github.com/know-ontology/know.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "scopeguard",
+          "ecosystem": "CARGO",
+          "version": "1.2",
+          "githubOrg": "bluss",
+          "githubRepo": "scopeguard",
+          "githubUrl": "https://github.com/bluss/scopeguard",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "thiserror",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "dtolnay",
+          "githubRepo": "thiserror",
+          "githubUrl": "https://github.com/dtolnay/thiserror",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytes",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "bytes",
+          "githubUrl": "https://github.com/tokio-rs/bytes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cfg-if",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cfg-if",
+          "githubUrl": "https://github.com/rust-lang/cfg-if",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clientele",
+          "ecosystem": "CARGO",
+          "version": "0.3.8",
+          "githubOrg": "dryrust",
+          "githubRepo": "clientele.rs",
+          "githubCommit": "18a9d41f329119836131c590ec8710bdddc65862",
+          "githubTag": "0.3.8",
+          "githubUrl": "https://github.com/dryrust/clientele.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.177",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "9f598d245e18ecb243118cfde095f24598ec9d5b",
+          "githubTag": "0.2.177",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.177/src/unix/mod.rs"
+        },
+        {
+          "packageName": "dotenvy",
+          "ecosystem": "CARGO",
+          "version": "0.15.7",
+          "githubOrg": "allan2",
+          "githubRepo": "dotenvy",
+          "githubCommit": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+          "githubTag": "v0.15.7",
+          "githubUrl": "https://github.com/allan2/dotenvy",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dotenvy-0.15.7/src/lib.rs"
+        }
       ]
     }
   ],
