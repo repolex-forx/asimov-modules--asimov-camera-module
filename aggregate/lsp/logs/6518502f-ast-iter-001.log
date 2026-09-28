@@ -1,0 +1,7 @@
+[2026-09-28T07:33:15Z] === AST ITERATION 1 START | repo=asimov-modules/asimov-camera-module sha=6518502f ===
+[2026-09-28T07:33:15Z] [iter=1] PHASE START: ast repo=asimov-modules/asimov-camera-module sha=6518502f
+[2026-09-28T07:33:15Z] [iter=1] Building AST aggregate chunks
+[2026-09-28T07:33:23Z] [iter=1] AST chunks built count=1 triples=90163
+[2026-09-28T07:33:23Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/6518502fff8aadc64933017031025052d3093341/.complete
+[2026-09-28T07:33:23Z] [iter=1] PHASE END: ast elapsed_s=8 elapsed_min=0.1
+[2026-09-28T07:33:23Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
