@@ -1,0 +1,11 @@
+{
+  "org": "asimov-modules",
+  "repo": "asimov-camera-module",
+  "versions": [
+    {
+      "commit": "6518502fff8aadc64933017031025052d3093341",
+      "tag": "0.0.3",
+      "parsed_at": "2026-09-28T07:38:44.412776+00:00"
+    }
+  ]
+}
